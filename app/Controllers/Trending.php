@@ -4,10 +4,10 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 
-class BannerHome extends BaseController
+class Trending extends BaseController
 {
     public function index()
     {
-        return view('_partials/_bannerHome');
+        return view('_partials/_trending');
     }
 }
